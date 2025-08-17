@@ -1,5 +1,7 @@
 # 💰 Wallet Management & Transactions API
 
+![Java](https://img.shields.io/badge/Java-17-blue) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue) ![Maven](https://img.shields.io/badge/Maven-3.x-red)
+
 A **Spring Boot RESTful API** for wallet management, supporting **user registration, authentication, wallet funding, withdrawals, transfers, merchant payments**, and **transaction PIN/OTP verification**.
 
 ---
@@ -19,6 +21,7 @@ A **Spring Boot RESTful API** for wallet management, supporting **user registrat
 
 ## 📝 Project Overview
 This project allows users to:
+
 - Register and login with email/password
 - Create and manage wallets
 - Fund wallets and withdraw money
@@ -66,19 +69,3 @@ The system uses **JWT authentication**, **Spring Security**, and **Spring Data J
 ```bash
 git clone https://github.com/<your-username>/wallet-management-api.git
 cd wallet-management-api
-
-### Configure application.propertie
-```bash
-spring.datasource.url=jdbc:postgresql://localhost:5432/wallet_db
-spring.datasource.username=your_db_username
-spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update
-
-jwt.secret=YourBase64EncodedSecretKey
-jwt.expiration=1800000
-
-### Run the Application
-```bash
-mvn spring-boot:run
-
-
