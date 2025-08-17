@@ -47,7 +47,7 @@ The system uses **JWT authentication**, **Spring Security**, and **Spring Data J
 
 ## 🛠 Technologies Used
 - Java 17
-- Spring Boot 3.x
+- Spring Boot 4.x
 - Spring Data JPA / Hibernate
 - Spring Security + JWT
 - PostgreSQL / MySQL (configurable)
