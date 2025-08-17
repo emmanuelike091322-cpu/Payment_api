@@ -67,5 +67,5 @@ The system uses **JWT authentication**, **Spring Security**, and **Spring Data J
 
 ### Clone the Repo
 ```bash
-git clone https://github.com/<your-username>/wallet-management-api.git
-cd wallet-management-api
+git clone https://github.com/emmanuelike091322-cpu/Payment_api.git
+cd Payment_api
