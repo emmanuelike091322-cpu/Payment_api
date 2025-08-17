@@ -66,3 +66,19 @@ The system uses **JWT authentication**, **Spring Security**, and **Spring Data J
 ```bash
 git clone https://github.com/<your-username>/wallet-management-api.git
 cd wallet-management-api
+
+### Configure application.propertie
+```bash
+spring.datasource.url=jdbc:postgresql://localhost:5432/wallet_db
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+spring.jpa.hibernate.ddl-auto=update
+
+jwt.secret=YourBase64EncodedSecretKey
+jwt.expiration=1800000
+
+### Run the Application
+```bash
+mvn spring-boot:run
+
+
